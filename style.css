@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: rgb(74,74,74);
+}
+/* NAV CONTAINER */
+#nav {
+    /* border: 2px solid blue; */
+  display: flex;
+  margin: 3px;
+  background-color: rgba(255, 116, 24);
+  border: 10px solid rgba(255, 116, 24);
+  border-radius: 10px;
+width: 98vw;
+  position: sticky;
+  top: 0;
+}
+#yt,#dc,#ig {
+ padding-left: 30px; 
+}
+
+/* NAV ITEMS */
+#nav li {
+    
+  list-style-position: inside;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  color: rgb(37, 37, 37);
+  cursor: pointer;
+  font-size: 20px;
+}
+#nav a {
+    text-decoration: none;   /* remove underline */
+    color: rgb(37, 37, 37);
+}
+
+/* hover effect */
+#nav a:hover {
+    color: #ff0000;
+}
+
+/* ICON BASE */
+#nav li::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ICONS */
+#yt::before {
+  background-image: url("youtubelogo-removebg-preview.png");
+}
+
+#dc::before {
+  background-image: url("discordlogo-removebg-preview.png");
+}
+
+#ig::before {
+  background-image: url("images-removebg-preview.png");
+}
+
+#pic1{
+    margin: 10px;
+    border-radius: 15px;
+    float: left;
+  
+}
+
+p{
+    font-family: "Baloo Bhai 2", sans-serif;
+    color: rgb(228, 141, 84);
+    font-size: 19px;
+    position: relative;
+    top:25px;
+    line-height: 1.30;
+    width: 98vw;
+    /* border: 2px solid white; */
+}
+#silksongmeme1{
+  position:absolute;
+  top:70px;
+  left:335px;
+
+}
+#silksong{
+  position:relative;
+  /* border: 2px solid black; */
+  top:100px;
+  left:-310px;
+}
+hello brother apply the theme song of website dil na diya song by shdab from this link https://www.youtube.com/watch?v=9TmVq05iuzg {(last ke 10mins me hi tha)}
